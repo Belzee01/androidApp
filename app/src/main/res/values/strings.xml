@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FullScreenTablet</string>
+
+    <string name="welcome_text">Witaj w naszym szybkiem\nankieterze</string>
+    <string name="down_left">POLASKA FIRMA RODZINNA</string>
+    <string name="down_right">Rodzina Salubris</string>
+
+    <string name="gender_question">Rodzina Salubris</string>
+
+    <string name="years_question">Rodzina Salubris</string>
+
+    <string name="doctor_answers_question">Rodzina Salubris</string>
+
+    <string name="doctor_substantive_question">Rodzina Salubris</string>
+
+    <string name="doctor_intrest_question">Rodzina Salubris</string>
+
+    <string name="enjoyment_question">Rodzina Salubris</string>
+
+    <string name="equipement_question">Rodzina Salubris</string>
+
+    <string name="registration_question">Rodzina Salubris</string>
+
+    <string name="visual_state_question">Rodzina Salubris</string>
+
+    <string name="which_question">Rodzina Salubris</string>
+</resources>
