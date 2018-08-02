@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center|start"
         android:layout_margin="100dp"
-        android:text="@string/women_btn" />
+        android:text="@string/women_btn"
+        android:onClick="onWomenBtnClick"/>
 
     <Button
         android:id="@+id/men_btn"
@@ -32,5 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center|end"
         android:layout_margin="100dp"
-        android:text="@string/men_btn" />
+        android:text="@string/men_btn"
+        android:onClick="onWomenBtnClick"/>
+
 </FrameLayout>
