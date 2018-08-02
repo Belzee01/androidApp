@@ -5,9 +5,9 @@
     <string name="down_left">POLASKA FIRMA RODZINNA</string>
     <string name="down_right">Rodzina Salubris</string>
 
-    <string name="gender_question">Rodzina Salubris</string>
+    <string name="gender_question">Jesteś ?</string>
 
-    <string name="years_question">Rodzina Salubris</string>
+    <string name="years_question">Ile masz lat ?</string>
 
     <string name="doctor_answers_question">Rodzina Salubris</string>
 
@@ -24,4 +24,6 @@
     <string name="visual_state_question">Rodzina Salubris</string>
 
     <string name="which_question">Rodzina Salubris</string>
+    <string name="women_btn">Kobieta</string>
+    <string name="men_btn">Meżczyna</string>
 </resources>

@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gender_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".survey.steps.GenderStepActivity"
+    android:focusable="true">
 
     <TextView
-        android:id="@+id/down_left"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|start"
-        android:keepScreenOn="true"
-        android:padding="100dp"
-        android:text="@string/down_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender_question"
+        android:layout_gravity="center|top"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="30sp"
+        android:padding="50dp"
+        android:textStyle="bold"/>
 
+    <Button
+        android:id="@+id/women_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_margin="100dp"
+        android:text="@string/women_btn" />
+
+    <Button
+        android:id="@+id/men_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_margin="100dp"
+        android:text="@string/men_btn" />
 </FrameLayout>

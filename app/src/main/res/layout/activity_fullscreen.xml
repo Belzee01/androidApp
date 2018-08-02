@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0099cc"
+    android:clickable="true"
     tools:context=".FullscreenActivity"
-    android:id="@+id/main_layout">
+    android:focusable="true"
+    android:onClick="backgroundClick">
 
     <TextView
         android:id="@+id/welcome_text"
@@ -26,7 +29,7 @@
         android:layout_height="match_parent"
         android:gravity="bottom|start"
         android:keepScreenOn="true"
-        android:padding="100dp"
+        android:padding="50dp"
         android:text="@string/down_left"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -38,7 +41,7 @@
         android:layout_height="match_parent"
         android:gravity="bottom|end"
         android:keepScreenOn="true"
-        android:padding="100dp"
+        android:padding="50dp"
         android:text="@string/down_right"
         android:textColor="@color/white"
         android:textSize="20sp"
